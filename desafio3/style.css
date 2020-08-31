@@ -1,0 +1,11 @@
+header{
+    background-size: unset;
+    padding: 100%;
+    background-image: url("images/undraw_celebration_0jvk.svg"); 
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+h1{
+    color: red;
+}
