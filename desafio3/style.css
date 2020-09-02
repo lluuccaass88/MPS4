@@ -59,18 +59,21 @@ h1{
 
 /*Editando a area de ajuda*/
 #areaAjuda{
+    justify-content: center;
     background-color: #FFE8E8;
-    margin: 10px;
+    margin: 30px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
  
 .pedido{
-    margin: 5px;
+    margin: 10px;
     padding: 5px 0px 5px 10px;
     background-color: rgb(211, 211, 211);
     width: 40%;
     height: 35%;
+    flex:2;
 }
 
 strong{
@@ -81,8 +84,20 @@ h2{
     margin-top: 2px;
 }
 
-#ajudar{
+.btn-ajuda{
+    background-color: rgb(255, 64, 64);
+    color:white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    float: right;   
+}
 
+.btn-ajuda:hover{
+    background-color: rgb(255, 2, 2);
+    transition: 0.5s;
+    box-shadow: black;
 }
 
 /*Footer*/
