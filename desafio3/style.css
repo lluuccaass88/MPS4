@@ -6,8 +6,6 @@ body{
 
 /*Editando o Header:*/
 
-/*Logo*/
-
 /*Menu*/
 #menu ul {
     padding:0px;
@@ -65,15 +63,17 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow:scroll; 
+    height: 720px;
 }
  
 .pedido{
     margin: 10px;
     padding: 5px 0px 5px 10px;
     background-color: rgb(211, 211, 211);
-    width: 40%;
+    width: 45%;
     height: 35%;
-    flex:2;
+    flex-shrink: 0;
 }
 
 strong{
@@ -102,5 +102,64 @@ h2{
 
 /*Footer*/
 footer{
-    height: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #E5243B;
+}
+
+#img-footer{
+    margin-left: 5% ;
+    width: 90%;
+    height: 80%;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+/*Tela de 1000px*/
+@media only screen and (max-width: 1030px) {
+    .pedido{
+        height: 37%;
+    }
+}
+
+/*Tela de 900px*/
+@media only screen and (max-width: 900px) {
+    .pedido{
+        width: 90%;
+    }
+
+}
+
+/*Tela de 435px*/
+@media only screen and (max-width: 435px) {
+    .pedido{
+        height: 42.5%;
+        font-size: 16px;
+    }
+    
+    strong{
+        font-size: 16px;
+    }
+
+    .btn-ajuda{
+        margin-left: -2%;
+        float: none;
+        width: 100%;
+    }
+
+}
+
+/*Tela de 363px*/
+@media only screen and (max-width: 363px) {
+    #menu ul li  a{
+        font-size: 13px;
+    }
+    
+    .pedido{
+        height: 47%;
+        font-size: 15px;
+    }
 }

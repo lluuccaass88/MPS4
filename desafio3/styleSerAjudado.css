@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+
+/*Menu*/
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#df1111;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 12px 7px 7px 7px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#df1111;
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    border-bottom:3px solid #df1111;
+}
+
+#menu ul li a:hover {
+    background-color:#ff8888;
+    color: #ffff;
+    border-bottom:3px solid white;
+}
