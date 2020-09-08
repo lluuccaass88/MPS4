@@ -1,0 +1,45 @@
+/*Banner header*/
+#banner-header{
+    background-size: 34%;
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    background-image: url("../images/undraw_personal_email_t7nw.svg"); 
+    background-repeat:no-repeat;
+    background-position: center center;
+    margin-bottom: 5%;
+}
+
+/*Formulario*/
+form{
+    width: 40%;
+    background-color: rgb(255, 240, 240);
+    margin-left:2% ;
+}
+
+
+
+/*Tela de 900px*/
+@media only screen and (max-width: 900px) {
+    #banner-header{
+        height: 300px;
+    }
+
+}
+
+/*Tela de 500px*/
+@media only screen and (max-width: 500px) {
+    #banner-header{
+        background-size: 42%;
+        height: 200px;
+    }
+
+}
+
+/*Tela de 350px*/
+@media only screen and (max-width: 350px) {
+    #banner-header{
+        background-size: 60%;
+        height: 200px;
+    }
+}
