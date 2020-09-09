@@ -24,26 +24,44 @@
 
     <h1>Pedido de Ajuda!</h1>
 
-    <form action="">
-        <h3>Preencha o formulário para enviar seu pedido:</h3>
-        <label for="">Nome Completo:</label>
-        <input type="text">
-        <label for="">Data de nascimento:</label>
-        <input type="date">
-        <label for="">Telefone:</label>
-        <input type="number">
-        <label for="">E-mail:</label>
-        <input type="email">
-        <label for="">Rua:</label>
-        <input type="text">
-        <label for="">Nº:</label>
-        <input type="text">
-        <label for="">Bairro:</label>
-        <input type="text">
-        <label for="">Link de pagamento do Mercado Pago <span>(opcional):</span></label>
-        <input type="text">
-        <label for="">Descrição:</label>
-        <textarea name="" id="" cols="150" rows="10"></textarea>
-    </form>
+    <div id="container_form">
+        <form action="">
+            <h3>Preencha o formulário para enviar seu pedido:</h3>
+            <label for="">Nome Completo:</label>
+            <input id="nome" type="text">
+            
+            <div class="lado_a_lado">
+                <label for="">Data de nascimento: </label>
+                <input id="data" type="date">
+                <label for="">Telefone: </label>
+                <input id="numero" type="number">
+            </div>
+    
+            <label for="">E-mail:</label>
+            <input id="email" type="email">
+    
+            <div class="lado_a_lado">
+                <label for="">Rua:</label>
+                <input id="rua" type="text">
+                <label for="">Nº:</label>
+                <input id="numero_casa" type="text">
+                <label for="">Bairro:</label>
+                <input id="bairro" type="text">
+            </div>
+            
+            <label for="">Link de pagamento do Mercado Pago <span>(opcional):</span></label>
+            <input id="pagamento" type="text">
+            <label for="">Descrição:</label>
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+            <input id="btn-env"  class="btn-ajuda" type="button" value="ENVIAR">
+        </form>
+    </div>
+
+
+
+    <footer>
+        <img id="img-footer" src="https://nacoesunidas.org/wp-content/uploads/2017/02/ods1.png" alt="">
+        <p><strong>Desenvolvido por Lucas Alves :)</strong></p>
+    </footer>
 </body>
 </html>

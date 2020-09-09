@@ -162,4 +162,10 @@ footer p{
         height: 47%;
         font-size: 15px;
     }
+
+    #img-footer{
+        margin-left: 5% ;
+        width: 100%;
+        height: 50%;
+    }
 }
