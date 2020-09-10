@@ -1,0 +1,23 @@
+#banner-header{
+    background-image: url("https://nacoesunidas.org/wp-content/uploads/2017/02/ods1.png"); 
+    padding: 0.5vw;
+}
+
+#main{
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+    background-color: khaki;
+}
+
+section{
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    background-color: lightcoral;
+}
+
+iframe{
+    margin: 5%;
+
+}
