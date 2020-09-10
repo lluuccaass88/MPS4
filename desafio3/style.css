@@ -88,10 +88,11 @@ h2{
     background-color: rgb(255, 64, 64);
     color:white;
     border: none;
-    padding: 8px;
+    padding: 10px;
     cursor: pointer;
     margin-right: 10px;
     float: right;   
+    border-radius: 20px;
 }
 
 .btn-ajuda:hover{
